@@ -430,5 +430,17 @@
 
   article {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  article figure {
+    flex: 0 0 214px;
+    margin: 0 auto;
+  }
+
+  .description_film {
+    flex: 1 1 0;
+    min-width: 200px;
+    margin: 0 1rem;
   }
     
